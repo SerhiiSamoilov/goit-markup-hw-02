@@ -13,8 +13,10 @@ button {
 
 :root {
   --main-font-family: 'Roboto', sans-serif;
-  --secondary-font-family-family: 'Raleway', sans-serif;
-  --background-color: ;
+  --secondary-font-family: 'Raleway', sans-serif;
+  --background-color: #ffffff;
+  --logo-second-word-header: #2e2f42;
+  --logo-second-word-footer: #f4f4fd;
 }
 
 body {
@@ -44,7 +46,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: #434455;
 }
 
@@ -144,12 +145,12 @@ body {
   color: #f4f4fd;
 }
 
-.logo-first-word {
-  color: #4d5ae5;
+.color {
+  color: #2e2f42;
 }
 
 .logo {
-  font-family: var(--secondary-font-family-family);
+  font-family: var(--secondary-font-family);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -158,12 +159,12 @@ body {
   text-transform: uppercase;
 }
 
-.logo-second-word-white {
-  color: #ffffff;
+.logo-second-word-footer {
+  color: var(--logo-second-word-footer);
 }
 
-.logo-second-word-black {
-  color: black;
+.logo-second-word-header {
+  color: var(--logo-second-word-header);
 }
 
 /* portfolio */
