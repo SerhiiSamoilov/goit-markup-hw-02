@@ -7,13 +7,21 @@
 }
 
 button {
+  font-family: inherit;
   cursor: pointer;
+}
+
+:root {
+  --main-font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--main-font-family);
 }
 
 /* header */
 
 .menu-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -28,7 +36,6 @@ button {
 }
 
 .contact {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -40,4 +47,148 @@ button {
 .contact:hover,
 .contact:focus {
   color: #404bbf;
+}
+
+/*  slogan*/
+.slogan {
+  background-color: #2e2f42;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.modal-open-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+  background-color: #404bbf;
+}
+
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.advantages-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*  What are we doing*/
+
+.suptitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* Our Team */
+
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.employees-list-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.employees-list-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.team-gallery-list-item {
+  background-color: #ffffff;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2e2f42;
+}
+.footer-message {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.logo-first-word {
+  color: #4d5ae5;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.logo-second-word-white {
+  color: #ffffff;
+}
+
+.logo-second-word-black {
+  color: black;
+}
+
+/* portfolio */
+
+.menu-filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+}
+
+.menu-filter-btn:hover,
+.menu-filter-btn:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.portfolio-list-branch {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-list-activity {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
